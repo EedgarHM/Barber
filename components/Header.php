@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark header">
     <a class="navbar-brand justify-content-end " href="#">
         Barber<span>Spartan</span>
     </a>

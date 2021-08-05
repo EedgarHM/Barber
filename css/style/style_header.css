@@ -1,56 +1,26 @@
+:root{
+    /* Carga de colores por RGB y HEX */
+    --HEX_MAIN_BLACK_COLOR          : #000000;   /*    rgba(0,0,0,255)      */
+    --HEX_PRIMARY_DARK_GRAY_COLOR   : #424242;   /*    rgba(66,66,66,255)   */
+    --HEX_SECONDARY_DARK_GRAY_COLOR : #737373;   /*    rgba(115,115,115,255)*/
+    --HEX_PRIMARY_LIGTH_GRAY_COLOR  : #9e9e9e;   /*    rgba(158,158,158,255)*/
+    --HEX_SECONDARY_LIGTH_GRAY_COLOR: #ececec;   /*    rgba(197,197,197,255)*/
+    --HEX_PRIMARY_WHITE_COLOR       : #ececec;   /*    rgba(236,236,236,255)*/
+}
 
-/*  - Elegir Bootstrap como hoja de style en cascada.   (LSITO)
 
-    - Con bootstrap agregado vamos a elegri la paleta de colores (LISTO)
+/* Header Styles */
 
-    3.5% -2.5 stops
-    Hex: #000000
-    RGB: rgba(0,0,0,255)
-
-    4.5% -2.0 stops
-    Hex: #424242
-    RGB: rgba(66,66,66,255)
-
-    9% -1.0 stops
-    HEX: #737373
-    RGB: rgba(115,115,115,255)
-
-    18% stops
-    HEX: #9e9e9e
-    RGB: rgba(158,158,158,255)
-
-    36% +1.0 stops
-    HEX: #c5c5c5
-    RGB: rgba(197,197,197,255)
-
-    72% +2.0 stops
-    HEX: #ececec
-    RGB: rgba(236,236,236,255)
-
-    95% +2.5 stops
-    HEX: #ffffff
-    RGB: rgba(255,255,255,255)
-
-    
-    - Crear el archivo home.html
-    (Es el index)
-
-    - Ajax y Jquery (Recientes).
-    (Medio listo)
-
-    - Crear el Header.
-    
-    .-.-.-.-.-.-.-.-.-.-.-.
-
-    */
-
-    
 .container__menu.active{
     opacity: 100;
     position: fixed;
     z-index: -100;
 }
 
-.container__menu{
-}
+
+/* Main Styles */
+
+
+
+/* Footer Styles */
 

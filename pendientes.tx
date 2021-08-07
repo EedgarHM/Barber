@@ -1,10 +1,10 @@
-*   Cambiar Header por css puro
-*   
 *   Hacer Responsivo el header
-*   Agregar fondos, colores, degradados a la pagina
-*   Ajustar la imagen de fondos
-*   arreglar Responsive de la barra de navegacion
-*   crear las cards con css puro o bootstrap y agregar las cards a un carousel
-*   Diseñar pagina Login
-*   Diseñar pagina citas
-*   Diseñar pagina Administrar citas
+*   Agregar fondos, colores, degradados a la pagina                                     Listo
+*   Ajustar la imagen de fondos                                                         Listo
+*   arreglar Responsive de la barra de navegacion                                       Listo
+*   crear las cards con css puro o bootstrap y agregar las cards a un carousel          PENDIENTE Se crearon las cards y se agregaron dentro de un scroll
+*   Diseñar pagina Login                                                                PENDIENTE
+*   Diseñar pagina citas                                                                PENDIENTE
+*   Diseñar pagina Administrar citas                                                    PENDIENTE
+*   Hacer Responsive la pagina principal contenedores                                   PENDIENTE
+

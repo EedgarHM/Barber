@@ -4,7 +4,9 @@ addEventListener('DOMContentLoaded',()=>{
 
     btn_burger.addEventListener("click",()=>{
         const menu_items = document.getElementById("menu__items");
-        menu_items.classList.toggle("show")
+        const container_main = document.getElementById("container__main");
+        menu_items.classList.toggle("show");
+        container_main.classList.toggle("show");
     })
 
 })

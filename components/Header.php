@@ -20,3 +20,28 @@
         <div>
 </nav>
 -->
+
+    <nav class="menu">
+      <label class="menu__logo" id="menu__logo">
+        <a href="../index.php">Barber<span>Spartan</span></a>
+      </label>
+
+      <ul class="menu__items" id="menu__items">
+        <li>
+          <a class="active" href="">Agendar Cita</a>
+        </li>
+        <li>
+          <a href="">Sobre nosotros</a>
+        </li>
+        <li>
+          <a href="">Ubicacion</a>
+        </li>
+        <li>
+          <a href="">Iniciar Sesion</a>
+        </li>
+      </ul>
+
+      <span class="menu__btn__burger" id="menu__btn__burger">
+        <i class="fas fa-bars"></i>
+      </span>
+    </nav>

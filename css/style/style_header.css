@@ -44,6 +44,9 @@ a{
 .menu .menu__logo{
     font-size: 30px;
     padding: 0 50px;
+   
+}
+.menu__logo a{
     color: var(--HEX_SECONDARY_LIGTH_GRAY_COLOR);
 }
 .menu__logo span{
@@ -78,8 +81,8 @@ a{
 .menu__btn__burger{
     margin-right: 30px;
     font-size: 20px;
-    cursor: pointer;
     display: none;
+    cursor: pointer;
 }
 
 /*Responsive Header*/
@@ -125,7 +128,6 @@ a{
 /* Main Styles */
 .container__main{
     height: 100vh;
-    margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2,2fr);
 }
@@ -191,6 +193,9 @@ a{
         transition: ease-in-out 0.2s;
         
     }
+    .container__main {
+        display: block;
+    }
     .container__main .container{
         display: flex;
         top: 10px!important;
@@ -199,11 +204,16 @@ a{
     }
 }
 @media screen and (max-width:540px){
-    .container__main .container {
-        flex-direction: column;
+    .menu{
+        position: fixed;
+        width: 100%;
+        top: 0;
     }
-    .container__main .container .card {
-        margin-bottom: 2rem;
+    .container__main{
+        margin-top: 3rem;
+    }
+    .container__cards{
+       grid-template-columns:  1fr;
     }
     
 }

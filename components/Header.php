@@ -28,16 +28,16 @@
 
       <ul class="menu__items" id="menu__items">
         <li>
-          <a class="active" href="">Agendar Cita</a>
+          <a id="citas" class="active" href="#">Agendar Cita</a>
         </li>
         <li>
-          <a href="">Sobre nosotros</a>
+          <a id="nosotros" href="#">Sobre nosotros</a>
         </li>
         <li>
-          <a href="">Ubicacion</a>
+          <a id="ubicacion" href="#">Ubicacion</a>
         </li>
         <li>
-          <a href="">Iniciar Sesion</a>
+          <a id="btnLogin" href="#">Iniciar Sesion</a>
         </li>
       </ul>
 

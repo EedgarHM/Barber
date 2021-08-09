@@ -6,5 +6,6 @@
 *   Diseñar pagina Login                                                                PENDIENTE
 *   Diseñar pagina citas                                                                PENDIENTE
 *   Diseñar pagina Administrar citas                                                    PENDIENTE
-*   Hacer Responsive la pagina principal contenedores                                   PENDIENTE
+*   Hacer Responsive la pagina principal contenedores  
+*   Cuando se hace click en un item del menu en movil, se debe cerrar el menu y cargar el contenido                                 PENDIENTE
 

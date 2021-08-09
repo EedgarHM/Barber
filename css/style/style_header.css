@@ -292,3 +292,7 @@ input[type=text], input[type=password] {
 }
 
 /* Footer Styles */
+#map{
+    height: 100vh;
+    width: 100%;
+}

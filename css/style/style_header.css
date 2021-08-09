@@ -218,4 +218,77 @@ a{
     
 }
 
+/* Styles for Login */
+
+.login-form {
+    background-color: var(--HEX_PRIMARY_WHITE_COLOR);
+    height: 100vh;
+    min-width: 100%;
+    padding: 0 3rem;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+.login-form__btn-signin {
+    background-color: #fa5422;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.login-form__btn-signin:hover {
+    opacity: 0.8;
+}
+  
+.login-form__btn-cancel {
+    background-color: #fa5422;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.login-form__img-container {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+  
+.login-form__img-avatar {
+    width: 10em;
+    border-radius: 50%;
+}
+  
+.login-form__container {
+    padding: 16px;
+}
+  
+.login-form__span-psw {
+    float: right;
+    padding-top: 16px;
+}
+  
+@media screen and (max-width: 300px) {
+    .login-form__span-psw {
+      display: block;
+      float: none;
+    }
+    .login-form__cancelbtn {
+      width: 100%;
+    }
+}
+
 /* Footer Styles */

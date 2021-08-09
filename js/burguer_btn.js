@@ -7,5 +7,6 @@ const container_menu = document.getElementById("container__menu");
 
 btn_burguer.addEventListener("click",()=>{
     container_menu.classList.toggle("active");
+    console.log("Pvto");
 });
 

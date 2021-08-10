@@ -7,7 +7,7 @@
         <label for="uname"><b>Usuario</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required>
 
-        <label for="psw"><b>Contrase;a</b></label>
+        <label for="psw"><b>Contraseña</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
 
         <button class="login-form__btn-signin" type="submit">Login</button>

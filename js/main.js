@@ -16,15 +16,16 @@ addEventListener("DOMContentLoaded", () => {
   // Cargando contenido con ajax
   $(document).ready(() => {
     //Click en agendar cita
-    /*
-    $("#ubicacion").click(() => {
-      $("#container").load("../components/Citas.php");
+    
+    $("#citas").click(() => {
+      getClassMenu();  
+      $("#container").load("../components/AgendarCita.php");
     });
 
     $("#nosotros").click(() => {
       $("#container").load("../components/Nosotros.php");
     });
-    */
+    
 
     $("#btnLogin").click(() => {
       getClassMenu();
